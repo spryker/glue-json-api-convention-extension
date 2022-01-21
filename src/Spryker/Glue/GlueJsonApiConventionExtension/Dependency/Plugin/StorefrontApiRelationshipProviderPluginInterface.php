@@ -13,7 +13,7 @@ interface StorefrontApiRelationshipProviderPluginInterface
 {
     /**
      * Specification:
-     *  - Returns an array of Glue Storefront Resource Relationship plugins
+     * - Returns an array of Glue Storefront Resource Relationship plugins.
      *
      * @api
      *
