@@ -11,6 +11,9 @@ use Spryker\Glue\GlueApplication\Rest\Request\Data\RestRequestInterface;
 interface ResourceRelationshipPluginInterface
 {
     /**
+     * Specification:
+     * - Adds relationships for resources.
+     *
      * @api
      *
      * @param array<\Generated\Shared\Transfer\GlueResourceTransfer> $glueResourceTransfer
@@ -21,10 +24,10 @@ interface ResourceRelationshipPluginInterface
     public function addRelationships(array $resources, GlueRequestTransfer $glueRequestTransfer): void;
 
     /**
-     * @api
-     *
      * Specification:
-     *  - Related resource name, when adding relationship e.g items have products, then this will have products literal
+     * - Related resource name, when adding relationship e.g items have products, then this will have products literal
+     *
+     * @api
      *
      * @return string
      */
