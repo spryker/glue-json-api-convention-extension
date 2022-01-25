@@ -7,7 +7,6 @@
 
 namespace Spryker\Glue\GlueJsonApiConventionExtension\Dependency\Plugin;
 
-use Generated\Shared\Transfer\GlueResourceMethodCollectionTransfer;
 use Spryker\Glue\GlueApplicationExtension\Dependency\Plugin\ResourceInterface;
 
 interface JsonApiResourceInterface extends ResourceInterface

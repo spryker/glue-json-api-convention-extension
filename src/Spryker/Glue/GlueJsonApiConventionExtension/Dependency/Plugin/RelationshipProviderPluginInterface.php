@@ -8,7 +8,6 @@
 namespace Spryker\Glue\GlueJsonApiConventionExtension\Dependency\Plugin;
 
 use Generated\Shared\Transfer\GlueRequestTransfer;
-use Spryker\Glue\GlueJsonApiConventionExtension\Dependency\Plugin\ResourceRelationshipCollectionInterface;
 
 interface RelationshipProviderPluginInterface
 {
@@ -18,14 +17,15 @@ interface RelationshipProviderPluginInterface
      *
      * @api
      *
-     * @param
+     * @param \Generated\Shared\Transfer\GlueRequestTransfer $glueRequestTransfer
+     *
      * @return bool
      */
     public function isApplicable(GlueRequestTransfer $glueRequestTransfer): bool;
 
     /**
      * Specification:
-     * - Returns an array of Glue Storefront Resource Relationship plugins.
+     * - Returns an array of Resource Relationship plugins.
      *
      * @api
      *

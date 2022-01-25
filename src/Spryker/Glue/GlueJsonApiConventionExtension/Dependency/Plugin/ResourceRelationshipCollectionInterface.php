@@ -7,8 +7,6 @@
 
 namespace Spryker\Glue\GlueJsonApiConventionExtension\Dependency\Plugin;
 
-use Spryker\Glue\GlueJsonApiConventionExtension\Dependency\Plugin\ResourceRelationshipPluginInterface;
-
 interface ResourceRelationshipCollectionInterface
 {
     /**
@@ -18,14 +16,17 @@ interface ResourceRelationshipCollectionInterface
      *
      * e.g resource name = ("items", new CartItemsProductsResourceRelationship()). This relationship must add products to each cart item.
      *
+     * @api
+     *
      * @param string $resourceType
      * @param \Spryker\Glue\GlueJsonApiConventionExtension\Dependency\Plugin\ResourceRelationshipPluginInterface $resourceRelationshipsPlugin
      *
-     * @return \Spryker\Glue\GlueJsonApiConventionExtension\Dependency\Plugin\ResourceRelationshipCollectionInterface
-     * @api
-     *
+     * @return $this
      */
-    public function addRelationship(string $resourceType, ResourceRelationshipPluginInterface $resourceRelationshipsPlugin);
+    public function addRelationship(
+        string $resourceType,
+        ResourceRelationshipPluginInterface $resourceRelationshipsPlugin
+    );
 
     /**
      * Specification:

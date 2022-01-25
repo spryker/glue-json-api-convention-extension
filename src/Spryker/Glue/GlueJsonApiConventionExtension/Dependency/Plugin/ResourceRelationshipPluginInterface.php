@@ -1,12 +1,14 @@
 <?php
 
 
+/**
+ * Copyright © 2016-present Spryker Systems GmbH. All rights reserved.
+ * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
+ */
+
 namespace Spryker\Glue\GlueJsonApiConventionExtension\Dependency\Plugin;
 
-
 use Generated\Shared\Transfer\GlueRequestTransfer;
-use Generated\Shared\Transfer\GlueResourceTransfer;
-use Spryker\Glue\GlueApplication\Rest\Request\Data\RestRequestInterface;
 
 interface ResourceRelationshipPluginInterface
 {
@@ -16,7 +18,7 @@ interface ResourceRelationshipPluginInterface
      *
      * @api
      *
-     * @param array<\Generated\Shared\Transfer\GlueResourceTransfer> $glueResourceTransfer
+     * @param array<\Generated\Shared\Transfer\GlueResourceTransfer> $resources
      * @param \Generated\Shared\Transfer\GlueRequestTransfer $glueRequestTransfer
      *
      * @return \Generated\Shared\Transfer\GlueResourceTransfer
