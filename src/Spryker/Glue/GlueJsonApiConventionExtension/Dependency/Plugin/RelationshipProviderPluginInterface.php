@@ -13,7 +13,7 @@ interface RelationshipProviderPluginInterface
 {
     /**
      * Specification:
-     * - Check if request transfer is applicable.
+     * - Checks if relationships provider is applicable.
      *
      * @api
      *
