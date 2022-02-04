@@ -14,8 +14,7 @@ interface RequestValidatorPluginInterface
 {
     /**
      * Specification:
-     * - Validate that all expected data is in the built request @see
-     * \Spryker\Glue\GlueApplicationExtension\Dependency\Plugin\RequestFlowAwareApiApplicationPluginInterface::buildRequest
+     * - Validate that all expected data is in the built request.
      *
      * @api
      *
