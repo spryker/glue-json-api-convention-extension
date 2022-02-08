@@ -11,6 +11,9 @@ namespace Spryker\Glue\GlueJsonApiConventionExtension\Dependency\Plugin;
 use Generated\Shared\Transfer\GlueRequestTransfer;
 use Generated\Shared\Transfer\GlueRequestValidationTransfer;
 
+/**
+ * Use this plugin for JSON API convention to validate headers after routing.
+ */
 interface RequestAfterRoutingValidatorPluginInterface
 {
     /**

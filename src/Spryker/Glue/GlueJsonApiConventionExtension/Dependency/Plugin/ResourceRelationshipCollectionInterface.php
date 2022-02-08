@@ -7,6 +7,9 @@
 
 namespace Spryker\Glue\GlueJsonApiConventionExtension\Dependency\Plugin;
 
+/**
+ * Use this interface to interact with resource relationship collection.
+ */
 interface ResourceRelationshipCollectionInterface
 {
     /**

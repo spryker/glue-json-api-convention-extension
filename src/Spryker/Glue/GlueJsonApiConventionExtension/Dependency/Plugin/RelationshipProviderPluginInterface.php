@@ -9,6 +9,9 @@ namespace Spryker\Glue\GlueJsonApiConventionExtension\Dependency\Plugin;
 
 use Generated\Shared\Transfer\GlueRequestTransfer;
 
+/**
+ * Use this plugin for Api application provided relationships.
+ */
 interface RelationshipProviderPluginInterface
 {
     /**

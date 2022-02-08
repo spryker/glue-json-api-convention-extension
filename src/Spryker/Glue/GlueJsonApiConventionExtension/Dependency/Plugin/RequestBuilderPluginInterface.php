@@ -9,6 +9,9 @@ namespace Spryker\Glue\GlueJsonApiConventionExtension\Dependency\Plugin;
 
 use Generated\Shared\Transfer\GlueRequestTransfer;
 
+/**
+ * Use this plugin for JSON API convention to build and format the request.
+ */
 interface RequestBuilderPluginInterface
 {
     /**

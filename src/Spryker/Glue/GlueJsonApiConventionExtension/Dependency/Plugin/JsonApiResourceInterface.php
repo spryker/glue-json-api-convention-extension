@@ -9,6 +9,9 @@ namespace Spryker\Glue\GlueJsonApiConventionExtension\Dependency\Plugin;
 
 use Spryker\Glue\GlueApplicationExtension\Dependency\Plugin\ResourceInterface;
 
+/**
+ * Interface that must be implemented by all Resource classes follwed JSON API convention.
+ */
 interface JsonApiResourceInterface extends ResourceInterface
 {
 }

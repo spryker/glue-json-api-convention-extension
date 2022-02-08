@@ -10,6 +10,9 @@ namespace Spryker\Glue\GlueJsonApiConventionExtension\Dependency\Plugin;
 
 use Generated\Shared\Transfer\GlueRequestTransfer;
 
+/**
+ * Use this interface to interact with resource relationship plugin.
+ */
 interface ResourceRelationshipPluginInterface
 {
     /**
